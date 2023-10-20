@@ -11656,6 +11656,13 @@ html {
     width: 3vw;
     left: -4vw;
   }
+ 
+}
+@media (max-width:576px) {
+  .d-flex {
+    flex-direction: column;
+}
+
 }
 @media (min-width: 768px) {
   .profile {
